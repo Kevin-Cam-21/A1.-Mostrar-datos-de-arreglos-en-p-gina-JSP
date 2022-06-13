@@ -42,13 +42,13 @@
             ddi[0]= 9;
             ddi[1]= 9;
             ddi[2]= 10;
-            ddi[3]= 8;
+            ddi[3]= 9;
             ddi[4]= 9;
             ddi[5]= 10;
             ddi[6]= 7;
             ddi[7]= 8;
             ddi[8]= 9;
-            ddi[9]= 9;
+            ddi[9]= 10;
             
             double dwi[]=new double [10];
             dwi[0]= 8;
@@ -60,13 +60,13 @@
             dwi[6]= 10;
             dwi[7]= 9;
             dwi[8]= 7;
-            dwi[9]= 8;
+            dwi[9]= 10;
 
             double ecbd[]=new double [10];
             ecbd[0]= 10;
             ecbd[1]= 9;
             ecbd[2]= 7;
-            ecbd[3]= 9;
+            ecbd[3]= 10;
             ecbd[4]= 8;
             ecbd[5]= 7;
             ecbd[6]= 10;
@@ -118,7 +118,7 @@
       <td><% out.print(dwi[2]);%></td>
       <td><% out.print(ecbd[2]);%></td>
       <td><% double prom2 = (ddi[2] + dwi[2] + ecbd[2])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom2));%></td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -128,7 +128,7 @@
       <td><% out.print(dwi[3]);%></td>
       <td><% out.print(ecbd[3]);%></td>
       <td><% double prom3 = (ddi[3] + dwi[3] + ecbd[3])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom3));%></td>
     </tr>
     <tr>
       <th scope="row">5</th>
@@ -138,7 +138,7 @@
       <td><% out.print(dwi[4]);%></td>
       <td><% out.print(ecbd[4]);%></td>
       <td><% double prom4 = (ddi[4] + dwi[4] + ecbd[4])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom4));%></td>
     </tr>
     <tr>
       <th scope="row">6</th>
@@ -148,7 +148,7 @@
       <td><% out.print(dwi[5]);%></td>
       <td><% out.print(ecbd[5]);%></td>
       <td><% double prom5 = (ddi[5] + dwi[5] + ecbd[5])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom5));%></td>
     </tr>
     <tr>
       <th scope="row">7</th>
@@ -158,7 +158,7 @@
       <td><% out.print(dwi[6]);%></td>
       <td><% out.print(ecbd[6]);%></td>
       <td><% double prom6 = (ddi[6] + dwi[6] + ecbd[6])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom6));%></td>
     </tr>
     <tr>
       <th scope="row">8</th>
@@ -168,7 +168,7 @@
       <td><% out.print(dwi[7]);%></td>
       <td><% out.print(ecbd[7]);%></td>
       <td><% double prom7 = (ddi[7] + dwi[7] + ecbd[7])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom7));%></td>
     </tr>
     <tr>
       <th scope="row">9</th>
@@ -178,7 +178,7 @@
       <td><% out.print(dwi[8]);%></td>
       <td><% out.print(ecbd[8]);%></td>
       <td><% double prom8 = (ddi[8] + dwi[8] + ecbd[8])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom8));%></td>
     </tr>
     <tr>
       <th scope="row">10</th>
@@ -188,7 +188,7 @@
       <td><% out.print(dwi[9]);%></td>
       <td><% out.print(ecbd[9]);%></td>
       <td><% double prom9 = (ddi[9] + dwi[9] + ecbd[9])/(3);
-          out.print(String.format("%.1f",prom1));%></td>
+          out.print(String.format("%.1f",prom9));%></td>
     </tr>
   </tbody>
 </table>
